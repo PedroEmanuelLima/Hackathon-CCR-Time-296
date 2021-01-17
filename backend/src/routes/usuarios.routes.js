@@ -27,4 +27,10 @@ router.delete('/user/:id', userController.deleteUserById);
 // Aumentar a pontuação do usuario pelo 'Id'
 router.put('/userPoint/:id', userController.increasePoints);
 
+// Listagem de todos os 'usuarios'
+router.get('/vagas', userController.listvagas);
+
+// Listar apenas mentores
+router.get('/mentores', userController.listMentores);
+
 module.exports = router;

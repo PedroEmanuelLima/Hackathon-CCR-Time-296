@@ -55,3 +55,7 @@ INSERT INTO mentor_empresa (usuario_id, empresa_id) VALUES (2, 1);
 INSERT INTO usuario_certificao (usuario_id, certificacao_id) VALUES (1, 1);
 INSERT INTO usuario_certificao (usuario_id, certificacao_id) VALUES (2, 2);
 INSERT INTO usuario_certificao (usuario_id, certificacao_id) VALUES (2, 3);
+
+INSERT INTO vagas (cidade, vagaUrl, titulo_vaga) VALUES ('São Paulo', 'https://www.vagas.com.br/vagas/v2144415/jovem-aprendiz', 'Jovem Aprendiz');
+INSERT INTO vagas (cidade, vagaUrl, titulo_vaga) VALUES ('Rio de Janeiro', 'https://www.vagas.com.br/vagas/v2144415/jovem-aprendiz', 'Jovem Aprendiz');
+INSERT INTO vagas (cidade, vagaUrl, titulo_vaga) VALUES ('Belo Horizonte', 'https://www.vagas.com.br/vagas/v2146800/jovem-aprendiz', 'Jovem Aprendiz');

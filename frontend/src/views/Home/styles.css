@@ -11,6 +11,9 @@
   height: 100%;
   display: flex;
   margin-left: 390px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .text-home{
@@ -18,4 +21,16 @@
   font-size: 45px;
   line-height: 50px;
   color: #ffffff;
+}
+
+.btn-mentor {
+  width: 250px;
+  height: 60px;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 15px;
+  color: #ffffff;
+  background-color: blue;
+  margin-left: 130px;
+  padding-top: 15px;
 }

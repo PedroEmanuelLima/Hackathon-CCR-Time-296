@@ -1,0 +1,39 @@
+.vagas-container {
+    padding-top: 100px;
+    height: calc(100vh - 200px);
+    padding-top: 0;
+    opacity: 0.7;
+  }
+  
+  .vagas-content {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .header-vagas {
+      display: flex;
+      align-items: center;
+  }
+  
+  .title-vagas{
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 50px;
+    margin-left: 25%;
+    color: #ffffff;
+  }
+
+  .filtros {
+      font-size: 1.3rem;
+      display: flex;
+      align-items: center;
+      color: #FFF;
+      background-color: var(--secundari-color);
+      border: none;
+  }
+
+  .img-filtros {
+      width: 38px;
+      height: 38px;
+  }

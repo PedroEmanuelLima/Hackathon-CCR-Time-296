@@ -100,3 +100,18 @@ exports.increasePoints = async (req, res) => {
 
     res.status(200).send();
 }
+
+// ==> Método responsável para listar vagas
+exports.increasePoints = async (req, res) => {
+    const response = await db.query(
+        "SELECT * FROM vagas"
+    );
+
+    res.status(200).send(response.rows);
+}
+
+//==> Metodo responsável por listar todos os Mentores
+exports.listMentores = async(req, res) => {
+    const response = await db.query('SELECT * FROM usuarios U, empresas E, mentor_empresa ME WHERE U.mentor = true AND E.usuario_id = U.usuario_id AND E.empresa_id = ME.empresa_id ORDER BY nome ASC');
+    res.status(200).send(response.rows);
+};

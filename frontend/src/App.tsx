@@ -1,13 +1,13 @@
 import React from 'react';
+import 'react-toastify/dist/ReactToastify.css';
 
 import './App.css';
-import Home from './views/Home';
-// import Routes from './Routes';
+import Routes from './Routes';
 
 function App() {
   return (
     <>
-      <Home />
+      <Routes />
     </>
   );
 }

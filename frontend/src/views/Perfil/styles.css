@@ -1,0 +1,23 @@
+.perfil-container {
+    padding-top: 100px;
+    height: calc(100vh - 200px);
+    padding-top: 0;
+    background-image: url('./Perfil-candidato.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7;
+}
+
+.perfil-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.perfil-content span {
+    margin: 16px;
+    font-size: 35px;
+    color: #000;
+    font-weight: bold;
+}

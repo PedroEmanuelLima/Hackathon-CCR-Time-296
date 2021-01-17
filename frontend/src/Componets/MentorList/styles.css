@@ -1,0 +1,41 @@
+.elemento-lista {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.areas-mentor, .descricao, .contatos{
+    display: flex;
+    flex-direction: column;
+}
+
+.empresa-mentor {
+    font-size: 30px;
+}
+
+.areas-mentor {
+    font-size: 19px;
+    padding-left: 26px;
+}
+
+.contatos {
+    padding-left: 40px;
+}
+
+.btn-conectar {
+    height: 30px;
+    width: 100px;
+    margin-left: 16px;
+    padding: 3;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.btn-conectar a{
+    color: #FFF;
+}

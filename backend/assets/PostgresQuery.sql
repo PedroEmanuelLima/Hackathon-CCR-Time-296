@@ -95,3 +95,10 @@ CREATE TABLE areas_usuarios (
 	FOREIGN KEY (usuario_Id) REFERENCES usuarios (usuario_Id),
 	FOREIGN KEY (area_Id) REFERENCES areas (area_Id)
 );
+
+CREATE TABLE vagas (
+	vaga_Id SERIAL PRIMARY KEY,
+	cidade varchar(50) UNIQUE,
+	vagaUrl text,
+	titulo_vaga text	
+);
