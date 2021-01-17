@@ -1,0 +1,15 @@
+.footer {
+    height: 130px;
+    background: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0  20px 0 20px;
+    opacity: 0.6;
+}
+
+.footer-text {
+    font-size: 26px;
+    line-height: 33px;
+    color: #FFFFFF;
+}

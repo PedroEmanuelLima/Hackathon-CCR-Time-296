@@ -1,0 +1,21 @@
+.home-container {
+  padding-top: 100px;
+  height: calc(100vh - 300px);
+  background-image: url('./imagebg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.7;
+}
+
+.home-content {
+  height: 100%;
+  display: flex;
+  margin-left: 390px;
+}
+
+.text-home{
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 50px;
+  color: #ffffff;
+}
