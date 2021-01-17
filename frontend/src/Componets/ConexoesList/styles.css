@@ -1,0 +1,32 @@
+.elemento-lista {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.areas-user, .descricao, .contatos{
+    display: flex;
+    flex-direction: column;
+}
+
+.areas-user {
+    font-size: 19px;
+    padding-left: 26px;
+}
+
+.contatos {
+    padding-left: 40px;
+}
+
+.pontos-user {
+    font-size: 20px;
+    color: red;
+    margin-left: 16px;
+}
+
+.elemento-lista div {
+    
+}

@@ -1,0 +1,28 @@
+.user-container {
+    padding-top: 100px;
+    height: calc(100vh - 200px);
+    padding-top: 0;
+    background-image: url('./Mentor.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    opacity: 0.7;
+  }
+
+  .title-user {
+    margin: 10px 0px;
+  }
+  
+  .user-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+  }
+
+.user-mentores{
+  color: #FFFFFF;
+  font-size: 59px;
+  line-height: 76px;
+  text-align: center;
+}
+ 

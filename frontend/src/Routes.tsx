@@ -7,6 +7,7 @@ import Mentores from './views/Mentor';
 import Testes from './views/Testes';
 import Navbar from './Componets/Navbar';
 import Perfil from './views/Perfil';
+import Conexoes from './views/Conexoes';
 
 export default function Routes() {
     return (
@@ -35,6 +36,10 @@ export default function Routes() {
                 
                 <Route path="/perfil">
                     <Perfil />
+                </Route>                
+                
+                <Route path="/conexoes">
+                    <Conexoes />
                 </Route>                
             </Switch>
         </BrowserRouter>
