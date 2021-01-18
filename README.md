@@ -1,5 +1,5 @@
 # Mentor de Aprendiz
-## Plataforma com fialidade de instruir os jovens entre 17 a 24, os conectanto com mentores que são profissionais com experiência(s) de mercado e que possam propor quais melhores caminhos para seu mentorado, além de apontar a afinidade desse com determinadas áreas de conhecimento, além de disponibilizar recursos de crecimento individual do jovem.
+## Plataforma com finalidade de instruir os jovens entre 17 a 24, os conectanto com mentores que são profissionais com experiência(s) de mercado e que possam propor quais melhores caminhos para seu mentorado, além de apontar a afinidade desse com determinadas áreas de conhecimento, além de disponibilizar recursos de crecimento individual do jovem.
 
 > Status do Projeto: Em desenvolvimento :warning:
 
